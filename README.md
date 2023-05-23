@@ -18,10 +18,12 @@ PrintsCharming is a locally hosted service that will try to fingerprint the stuf
 Request format:
 ```
 {
-    "tags": "html",
+    "tags": ["all"],
     "data": "base64-encoded data"
 }
 ```
+Tags indicate which rules should be used for the run.
+Data is the input data, base64 encoded.
 
 Response format:
 ```
@@ -30,10 +32,24 @@ Response format:
         {
             "rule": "jQuery ([\d.]+)",
             "match": "jQuery 1.2.3.4",
-            "type": "fingerprint",
+            "type": "regex",
             "component": "jquery",
             "version": "1.2.3.4"
         }
     ]
 }
 ```
+Detections is a list of detections, based on the rules used. The interesting output is component and version, which contains the fingerprint.
+
+Rules format:
+
+```
+{
+  "tags": ["js"],
+  "type": "regex",
+  "pattern": "jQuery ([\\d.]+)",
+  "component": "jquery",
+  "version": ""
+}
+```
+Version will be overridden by any capture group.
