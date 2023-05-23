@@ -5,6 +5,9 @@ class PrintsCharming:
     def __init__(self):
         pass
 
+    def handle(self, pipeline, input):
+        pass
+
     def hello(self):
         return jsonify({
             "detections": [

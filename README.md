@@ -18,7 +18,7 @@ PrintsCharming is a locally hosted service that will try to fingerprint the stuf
 Request format:
 ```
 {
-    "type": "html",
+    "tags": "html",
     "data": "base64-encoded data"
 }
 ```
