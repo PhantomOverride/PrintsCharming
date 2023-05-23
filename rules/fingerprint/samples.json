@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery ([\\d.]+)",
+      "version": ""
+    },
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery",
+      "version": ""
+    },
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery 1.2.3",
+      "version": "1.2.3"
+    }
+  ]
+}
