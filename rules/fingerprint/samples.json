@@ -27,6 +27,13 @@
       "pattern": "jQuery 1.2.3",
       "component": "jquery",
       "version": "1.2.3"
+    },
+    {
+      "tags": ["links"],
+      "type": "regex",
+      "pattern": "github.com",
+      "component": "Link to GitHub",
+      "version": ""
     }
   ]
 }
