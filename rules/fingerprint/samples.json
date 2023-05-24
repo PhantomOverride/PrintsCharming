@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery ([\\d.]+)",
+      "component": "jquery",
+      "version": ""
+    },
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery",
+      "component": "jquery",
+      "version": ""
+    },
+    {
+      "tags": ["random"],
+      "type": "regex",
+      "pattern": "random is random",
+      "component": "nothing",
+      "version": ""
+    },
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "jQuery 1.2.3",
+      "component": "jquery",
+      "version": "1.2.3"
+    },
+    {
+      "tags": ["header"],
+      "type": "regex",
+      "pattern": "Server:.([^\n]+)$",
+      "component": "server-header",
+      "version": ""
+    }
+
+  ]
+}
