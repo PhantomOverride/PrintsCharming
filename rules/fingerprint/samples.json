@@ -35,6 +35,7 @@
       "component": "server-header",
       "version": ""
     },
+    {
       "tags": ["links"],
       "type": "regex",
       "pattern": "//github.com",
