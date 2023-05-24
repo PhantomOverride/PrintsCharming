@@ -41,6 +41,13 @@
       "pattern": "//github.com",
       "component": "Link to GitHub",
       "version": ""
+    },
+    {
+      "tags": ["js"],
+      "type": "regex",
+      "pattern": "//www.google-analytics.com/analytics.js",
+      "component": "Google Analytics",
+      "version": ""
     }
   ]
 }
