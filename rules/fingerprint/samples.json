@@ -29,9 +29,15 @@
       "version": "1.2.3"
     },
     {
+      "tags": ["header"],
+      "type": "regex",
+      "pattern": "Server:.([^\n]+)$",
+      "component": "server-header",
+      "version": ""
+    },
       "tags": ["links"],
       "type": "regex",
-      "pattern": "github.com",
+      "pattern": "//github.com",
       "component": "Link to GitHub",
       "version": ""
     }
